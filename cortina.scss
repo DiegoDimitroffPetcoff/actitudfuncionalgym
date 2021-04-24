@@ -1,0 +1,55 @@
+/* CAMBIAR ESTA CONFIGURACION PRINCIPAL AL FUTURO MAI*/
+* { padding: 0px;
+    margin: 0;}
+
+/* GENERAL*/
+body { 
+    background-color: #06457b;
+}
+
+
+/* CARACTERISTICAS DEL IMAGEN*/
+.contenedor1{
+   
+    z-index: 1;
+    border-style: double;
+    width: 100%;
+    height: 100%;
+}
+.imagen {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor2 {
+    
+
+
+    position: relative;
+    bottom: 800px;
+    text-align: center;    
+   
+
+/* CARACTERISTICAS DEL LOGO*/
+.logo { 
+
+
+    background-color: beige;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    transition: all 5s;
+    text-align: center;    
+    }
+
+/* CARACTERISTICAS BOTON DE INGRESO*/
+.boton { 
+
+    display: inline-block;
+    text-align: center;
+    background-color: #34b56a;
+    padding: 1px 10px;
+    border-style: double;}
+    font-style:oblique
+
+}

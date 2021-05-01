@@ -28,7 +28,6 @@ body {
   text-align: center;
   /* CARACTERISTICAS DEL LOGO*/
   /* CARACTERISTICAS BOTON DE INGRESO*/
-  font-style: oblique;
 }
 
 .contenedor2 .logo {
@@ -46,6 +45,17 @@ body {
   text-align: center;
   background-color: #34b56a;
   padding: 1px 10px;
-  border-style: double;
+  border-style: solid;
+  border: #06457b;
+  border-radius: 5px;
+  border-top: 5px;
+  font-style: oblique;
+}
+
+.contenedor2 .botonletras {
+  background-color: #34b56a;
+  font-style: oblique;
+  border-style: none;
+  border: none;
 }
 /*# sourceMappingURL=cortina.css.map */

@@ -2,6 +2,9 @@
 * { padding: 0px;
     margin: 0;}
 
+@import url(_variables);
+
+    
 /* GENERAL*/
 body { 
     background-color: #06457b;
@@ -57,6 +60,7 @@ body {
 
 }
 
+
 .botonletras {
     background-color: #34b56a;
     font-style: oblique;
@@ -64,6 +68,8 @@ body {
     border: none;
 
 }
-   
+
+
+
     
 }

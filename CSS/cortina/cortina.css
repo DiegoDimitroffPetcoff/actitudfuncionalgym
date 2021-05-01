@@ -1,4 +1,5 @@
 /* CAMBIAR ESTA CONFIGURACION PRINCIPAL AL FUTURO MAI*/
+@import url(_variables);
 * {
   padding: 0px;
   margin: 0;

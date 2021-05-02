@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,gCAAI",
+    "sources": [
+        "mainindex.scss"
+    ],
+    "names": [],
+    "file": "mainindex.css"
+}

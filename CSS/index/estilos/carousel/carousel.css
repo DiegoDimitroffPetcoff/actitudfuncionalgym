@@ -1,0 +1,13 @@
+.carousel-item {
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  border-style: double;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.carousel-inner {
+  border-radius: 30px;
+}
+/*# sourceMappingURL=carousel.css.map */

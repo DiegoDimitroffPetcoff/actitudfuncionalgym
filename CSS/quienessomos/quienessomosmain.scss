@@ -1,0 +1,33 @@
+$azul: #06457b;
+$verde: #34b56a;
+
+body {
+ background-color: $azul
+
+}
+
+
+.imagen {
+    border-radius: 20px;
+    border-color: $verde;
+    border-style: solid;
+  
+
+   transform: translate(220px, 30px);
+
+  
+}
+#texto {
+    background-color: $verde;
+    border-radius: 20px;
+    position: sticky;
+   
+}
+ p {
+    display: block;
+    width: 700px;
+    border-color: #06457b;
+    border-style: solid;
+    transform: translatex(350px)
+    translatey(-50px);
+ }

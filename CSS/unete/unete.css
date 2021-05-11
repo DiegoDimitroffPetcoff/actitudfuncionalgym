@@ -1,0 +1,20 @@
+main {
+  background-color: #06457b;
+  color: #34b56a;
+  border: #34b56a;
+  padding: 100px;
+  border-style: solid;
+}
+
+.botoreserva {
+  background-color: #34b56a;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.usuario {
+  background-color: #34b56a;
+  color: white;
+  border-style: solidS;
+}
+/*# sourceMappingURL=unete.css.map */

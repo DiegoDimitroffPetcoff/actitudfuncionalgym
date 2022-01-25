@@ -43,31 +43,44 @@ header img{
 
 
 nav {
-    background-color: rgb(119, 77, 136);
-    grid-column: 1/13
-
     
-}
-/* .bordesMenu {
-    border-style: double;
-    border-color: black;
-    background-color: #31a565;
+    grid-column: 1/13;
+    
+   
+    background-color: #85d790;
+   
+    padding: 10px 0;
 }
 
-.bordesSubMenu {
-    
-    border-style: double;
-    width: auto;
-    height: auto;
-    line-height: normal;
-    background-color: #b3d4f1;
-
-    z-index: 10;
-    padding: 5vh;
-
-    font-size: 4vh;
+nav li{
+    margin: 0 1%;
+    display: inline;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
-} */
+    
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:800;
+    
+}
+nav a:hover {
+    color: white;
+}
+nav a:focus{
+    background-color: cornflowerblue;
+}
+nav li:hover{
+    background-color: #0e5368;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin: 0%;
+}
 
 main {
     background-color: rgb(19, 230, 212);

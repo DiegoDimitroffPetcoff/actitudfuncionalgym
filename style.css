@@ -17,7 +17,7 @@ body div{
 
 }
 header {
-    background-image: url(../MEDIA/IMG/backgroundactitutd.jpg);
+    background-image: url(./MEDIA/IMG/backgroundactitutd.jpg);
     grid-column: 1/13;
     display: flex;
     grid-template-columns: 307px auto 30%;
@@ -76,7 +76,7 @@ nav a {
 }
 nav a:hover {
     color: white;
-    display:block;
+    /* display:block; */
 }
 nav a:focus{
     background-color: cornflowerblue;
@@ -109,7 +109,7 @@ footer {
 @media (max-width: 750px) { 
     
     header {
-        background-image: url(../MEDIA/IMG/backgroundactitutd.jpg);
+        background-image: url(./MEDIA/IMG/backgroundactitutd.jpg);
         display: flex;
         align-items: center;
     }

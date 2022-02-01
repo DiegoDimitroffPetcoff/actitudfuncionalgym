@@ -1,0 +1,33 @@
+@media (max-width: 750px) {
+
+    .mainFooterContainer{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+main {
+    display: block;
+    background-color: #b8eebf;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*! width: auto; */
+    /*! margin: 0 auto; */
+    padding-top: 1vh;
+}
+figure {
+    width: 30vh;
+    border: 3px solid black;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 5% auto;
+    /*! padding: 1vh; */
+}
+
+/* ASIDE RESPONSIVE SETTING */
+aside{
+    width: 100%;
+}
+}

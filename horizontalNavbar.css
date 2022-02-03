@@ -32,7 +32,8 @@ header img{
 /* NAVBAR.------------------------------------------------------------------ */
 body .navContainer{
     display: grid;
-   width: 100%;
+    width: 100%;
+     margin: 0;
 }
 
 nav {
@@ -101,9 +102,4 @@ aside {
     grid-column: 10/13;
 }
 
-/* FOOTER-------------------------------------------------------------------------------- */
-footer {
-    background-color:brown;
-    grid-column: 1/13;
-}
 

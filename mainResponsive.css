@@ -19,10 +19,31 @@
        
     }
  
- 
+    .container_title{
+    
+
+    
+      
+        
+            margin: 10% 0;
+            padding: 15% 0%;
+            background-repeat: no-repeat;
+            background-position: 50% 75%;
+            background-attachment: fixed;
+            background-size: cover;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border:none;
+            
+            
+        
+    
+    }
+
 
 /* ASIDE RESPONSIVE SETTING */
 aside{
     width: 100%;
+    padding:0;
 }
 }

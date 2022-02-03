@@ -1,7 +1,8 @@
-@import url(horizontalNavbar.css);
+@import url('horizontalNavbar.css');
 @import url('responsiveNavbar.css');
-@import url(main.css);
-@import url(mainResponsive.css);
+@import url('main.css');
+@import url('mainResponsive.css');
+@import url('footer.css');
 
 
 body h1, h2, h3{
@@ -19,10 +20,18 @@ p{
 
 body div{
     
-    
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, auto);
- 
+    margin: 0 5%;
+    
 
 }
 
+@media (max-width: 1000px) {
+    body div{
+
+        margin: 0 0%;
+        
+    
+    }
+}

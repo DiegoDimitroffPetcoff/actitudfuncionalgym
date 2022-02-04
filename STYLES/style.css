@@ -1,3 +1,5 @@
+@import url('header.css');
+
 @import url('horizontalNavbar.css');
 @import url('responsiveNavbar.css');
 @import url('main.css');

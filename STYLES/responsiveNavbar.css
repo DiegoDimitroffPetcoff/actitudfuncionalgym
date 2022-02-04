@@ -2,16 +2,7 @@
 /* RESPONSIVE DESIGNE */
 @media (max-width: 750px) { 
     
-    header {
-        background-image: url(./MEDIA/IMG/backgroundactitutd.jpg);
-        display: flex;
-        align-items: center;
-    }
 
-    header img {
-        border-radius: 10px;
-        width: 140px;
-    }
 
 /* navBar---------------------------------------------------------------------------------- */
 .dropdown-menu{

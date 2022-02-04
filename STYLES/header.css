@@ -1,0 +1,70 @@
+header {
+    background-image: url(.ASSETS/MEDIA/IMG/backgroundactitutd.jpg);
+    background: linear-gradient(#9db1ec,#fbfbfb);
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+body > div:nth-child(1) > header:nth-child(1) > section:nth-child(2) {
+    margin-top: 10%;
+    color:white
+   }
+   
+
+header img{
+    border-radius: 10px;
+    width: 180px;
+}
+.section3 {
+    grid-row: 2/3;
+   }
+   
+.btn-danger{
+    margin-left: 58%;
+}
+
+.logo_animate{ 
+    
+    background-image: url(./LOGO.jpg);
+    margin: 20px 0 0 0px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    -webkit-animation: animation .9s 2;
+    align-items: center;
+    
+
+}
+
+@-webkit-keyframes animation {
+    0% {
+       }
+    
+    50% { 
+           
+            transform:scale(1.1);
+        }
+    
+        100% {  
+            
+    transform: rotate(360deg);
+            transition: 9s;
+            filter: blur(0px);}
+            
+
+    
+} 
+
+/* RESPONSIVE DESIGNE */
+@media (max-width: 750px) { 
+    header {
+    background: linear-gradient(#9db1ec,green);
+    }
+    .logo_animate{
+        margin: 39px 0 0 0px;
+    }
+}

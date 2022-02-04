@@ -1,33 +1,4 @@
-header {
-    background-image: url(./MEDIA/IMG/backgroundactitutd.jpg);
-    grid-column: 1/13;
-    display: flex;
-    grid-template-columns: 307px auto 30%;
-    grid-template-rows: repeat(2, auto);
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
 
-
-
-body > div:nth-child(1) > header:nth-child(1) > section:nth-child(2) {
-    margin-top: 10%;
-    color:white
-   }
-   
-
-header img{
-    border-radius: 10px;
-    width: 180px;
-}
-.section3 {
-    grid-row: 2/3;
-   }
-   
-.btn-danger{
-    margin-left: 58%;
-}
 
 /* NAVBAR.------------------------------------------------------------------ */
 body .navContainer{
@@ -89,17 +60,6 @@ nav li:hover{
 .hamburger, .close{
     display:none;
 }
-/* MAIN---------------------------------------------------------------------------------- */
-main {
-    background-color: rgb(63, 85, 83);
-    grid-column: 1/10;
-    height: 400px;
-}
 
-/* ASIDE--------------------------------------------------------------------------------- */
-aside {
-    background-color: rgb(124, 103, 75);
-    grid-column: 10/13;
-}
 
 

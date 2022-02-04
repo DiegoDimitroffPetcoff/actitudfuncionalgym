@@ -31,16 +31,16 @@ img{
 
 /* PARTICULAR SETTING--------------------------------------------------------------------- */
 .background1{
-    background-image: url(./MEDIA/IMG/background.jpg);
+    background-image: url(../ASSETS/MEDIA/IMG/background.jpg);
 }
 .background2{
-    background-image: url(./MEDIA/IMG/background2.jpg);
+    background-image: url(../ASSETS/MEDIA/IMG/background2.jpg);
 }
 .background3{
-    background-image: url(./MEDIA/IMG/imagen2.jpg);
+    background-image: url(../ASSETS/MEDIA/IMG/imagen2.jpg);
 }
 .background4{
-    background-image: url(./MEDIA/IMG/imagen3.jpg);
+    background-image: url(../ASSETS/MEDIA/IMG/imagen3.jpg);
 }
 
 

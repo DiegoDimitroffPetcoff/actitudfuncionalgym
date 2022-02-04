@@ -84,17 +84,8 @@ img{
 
 
 
-aside{
-    clear:both;
-    background: linear-gradient(#2825a2,green);
-    
-}
-aside p {
-    padding: 10%;
-    border: solid;
-    margin: 20%;
 
-}
+
 
 .desenfoque{
     background: #10622859;
@@ -102,16 +93,40 @@ aside p {
     margin: 0;
     
 }
-/* .desenfoque{
-    text-align: center;
-    font-size: xx-large;
-    
-    font-style: normal;
-} */
+
 
 /* ASIDE SETTING ---------------------------------------------------------------------*/
 aside{
     width: 20%;
-    padding: 30px;
+    padding: 9% 1%;
+    position: relative;
+    clear:both;
+    background: linear-gradient(#2825a2,green);
+}
+
+aside div{
+    border:solid #0000002b;
+   
+    border-style: double;
+    width: 90%;
+    height: inherit;
+
+  
+        display: flex;
+        flex-direction: column;
+position:sticky;
+        color: #e6e3f7;
+        top:0px
+
     
+   
+
+}
+
+aside div section img {
+    border:solid #0000002b;
+    width: 97%;
+    height: 100%;
+    object-fit: cover;
+    border-style: double;
 }

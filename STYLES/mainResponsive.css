@@ -45,5 +45,8 @@
 aside{
     width: 100%;
     padding:0;
+    background: linear-gradient(#2825a2,green);
 }
+/* POR AHORA SACO EL ASIDE EN EL MODELO PARA EL CELULAR */
+aside div{display: none;}
 }

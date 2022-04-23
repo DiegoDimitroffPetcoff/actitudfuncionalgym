@@ -55,7 +55,7 @@ img{
 
   
     
-        margin: 10% 0;
+        margin: 5% 0;
         padding: 15% 0%;
         background-repeat: no-repeat;
         background-position: 50% 75%;
@@ -98,7 +98,7 @@ img{
 /* ASIDE SETTING ---------------------------------------------------------------------*/
 aside{
     width: 20%;
-    padding: 9% 1%;
+    padding: 5% 1%;
     position: relative;
     clear:both;
     background: linear-gradient(#2825a2,green);
@@ -122,7 +122,25 @@ position:sticky;
    
 
 }
+.mainFooterContainer > aside:nth-child(2) > div:nth-child(1) > section:nth-child(1) {
+    align-content: center;
+    display: flex;
+   }
+   
+.sumate {
+    height: 49px;
+    color: #3b7956;
+    
+    font-size: larger;
+   }
 
+.btn-group {
+    border: none;
+    width: 100%;
+    margin: 1px;
+   }
+   
+   
 aside div section img {
     border:solid #0000002b;
     width: 97%;

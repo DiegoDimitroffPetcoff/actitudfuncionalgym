@@ -36,6 +36,7 @@ header img{
     display: inline-block;
     -webkit-animation: animation .9s 2;
     align-items: center;
+
     
 
 }
@@ -44,12 +45,14 @@ header img{
     0% {
        }
     
-    50% { 
+    50% {     z-index: 3;
+        position: relative;
            
             transform:scale(1.1);
         }
     
-        100% {  
+        100% {      z-index: 3;
+            position: relative;
             
     transform: rotate(360deg);
             transition: 9s;

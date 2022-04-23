@@ -1,44 +1,40 @@
-
 /* RESPONSIVE DESIGNE */
-@media (max-width: 750px) { 
-    
-
-
-/* navBar---------------------------------------------------------------------------------- */
-.dropdown-menu{
+@media (max-width: 750px) {
+  /* navBar---------------------------------------------------------------------------------- */
+  .dropdown-menu {
     display: none;
-    position:absolute;
+    position: absolute;
     z-index: 2000;
-}
+  }
 
-.hamburger, .close{       
+  .hamburger,
+  .close {
     display: block;
     font-size: 300%;
     position: absolute;
     top: 010px;
     right: 20px;
     color: white;
-}
+  }
 
-nav {
+  nav {
     /* position the close button to nav */
-   display: flex;
-   justify-content: space-between;
-   position: absolute;
-   z-index: 1000;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100vh;
-   /* overflow: hidden; */
-   /* animation */
-   transform: translateY(-100%);
-   transition: transform 0.2s ease;
-   /* overflow: visible; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    /* animation */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    /* overflow: visible; */
+  }
 
-}       
- 
-nav ul {
+  nav ul {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
@@ -47,57 +43,41 @@ nav ul {
     padding: 0;
     text-align: center;
     bottom: 360px;
-}
-    
-nav a {
+  }
+
+  nav a {
     font-size: 50px;
     font-weight: 800;
     display: block;
-}
+  }
 
-nav ul ul {
+  nav ul ul {
     width: 100%;
-    margin:0;
+    margin: 0;
     position: absolute;
     left: 0;
     z-index: 1000;
     background-color: #41974c;
-    margin-top: 365px;  
-}
+    margin-top: 365px;
+  }
 
-nav a:hover {
+  nav a:hover {
     color: white;
     /* display:block; */
-}
-nav li:hover{
+  }
+  nav li:hover {
     background-color: #0e5368;
     border-radius: 3px;
     padding: 10px 10px;
     margin: 0%;
-}
-nav:target{
+  }
+  nav:target {
     transform: translateY(0);
-}
- 
+  }
 
-/* FOOTER------------------------------------------------------------------------ */
-footer {
-    background-color:rgb(77, 165, 42);
+  /* FOOTER------------------------------------------------------------------------ */
+  footer {
+    background-color: rgb(77, 165, 42);
     grid-column: 1/13;
+  }
 }
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- } 

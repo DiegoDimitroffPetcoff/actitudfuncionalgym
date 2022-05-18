@@ -1,0 +1,13 @@
+#imgActividades {
+  background: linear-gradient(#2825a2, rgb(90, 101, 90)); 
+
+  height: 100%;
+  width: 100%;
+  display: flex
+}
+
+#actividades {
+margin: auto;
+    height: 50%;
+    width: 50%;
+}

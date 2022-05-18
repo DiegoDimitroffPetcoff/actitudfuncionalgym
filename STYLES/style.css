@@ -5,6 +5,7 @@
 @import url('main.css');
 @import url('mainResponsive.css');
 @import url('footer.css');
+@import url('./pages/actividades.css');
 
 
 body h1, h2, h3{
